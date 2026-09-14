@@ -92,6 +92,8 @@ Foundational references, design terminology, and established guidelines to eleva
 
 | Resource | Description | Category | Link |
 | :--- | :--- | :--- | :--- |
+| **[Laws of UX](https://lawsofux.com/)** | Collection of key cognitive psychology principles, heuristics, and behavioral laws that govern intuitive UX design. | `UX Psychology` `Heuristics` `Cognitive Laws` | [lawsofux.com](https://lawsofux.com/) |
+| **[Refactoring UI](https://refactoringui.com/)** | Practical design tactics, visual hierarchy rules, and UI design patterns written specifically for developers. | `Design Tactics` `Visual UI` `Best Practices` | [refactoringui.com](https://refactoringui.com/) |
 | **[Figma UI Design Principles](https://www.figma.com/resource-library/ui-design-principles/)** | Official educational guide covering visual hierarchy, layout, typography, grid systems, and user empathy. | `Design Guide` `Fundamentals` `Best Practices` | [figma.com/ui-design-principles](https://www.figma.com/resource-library/ui-design-principles/) |
 | **[UI Style Guide](https://www.uistyleguide.com/)** | Comprehensive index of real-world design systems, style guides, and component specifications from top brands. | `Design Systems` `Styleguides` `Reference` | [uistyleguide.com](https://www.uistyleguide.com/) |
 | **[Name That UI](https://namethatui.com/)** | Visual glossary and naming dictionary helping teams use precise industry terminology for UI patterns and widgets. | `Glossary` `UI Patterns` `Terminology` | [namethatui.com](https://namethatui.com/) |
@@ -104,6 +106,9 @@ Essential icons, vector graphics, conversion widgets, and prototyping environmen
 
 | Resource | Description | Use Case | Link |
 | :--- | :--- | :--- | :--- |
+| **[Heroicons](https://heroicons.com/)** | Hand-crafted, versatile SVG icon set available in outline, solid, mini, and micro variants from Tailwind Labs. | `Icons` `SVG` `Tailwind CSS` | [heroicons.com](https://heroicons.com/) |
+| **[Coolors](https://coolors.co/)** | Lightning-fast color scheme generator, palette explorer, gradient tool, and WCAG contrast checker. | `Color Palettes` `Accessibility` `Generator` | [coolors.co](https://coolors.co/) |
+| **[Google Fonts](https://fonts.google.com/)** | Extensive, open-source web typography library, variable fonts, and Material Symbols. | `Typography` `Web Fonts` `Open Source` | [fonts.google.com](https://fonts.google.com/) |
 | **[SVG Logos by lnDev](https://logos.lndev.me/)** | High-quality, optimized vector SVG logos for tech frameworks, developer tools, and programming languages. | `SVG Icons` `Tech Brands` `Vector` | [logos.lndev.me](https://logos.lndev.me/) |
 | **[Framer](https://www.framer.com/)** | Interactive site builder and prototyping platform combining visual design with production-ready React motion. | `Prototyping` `Site Builder` `No-Code/Code` | [framer.com](https://www.framer.com/) |
 | **[Testimonial.to](https://testimonial.to/)** | Embeddable social proof widgets, video testimonial collectors, and wall-of-love UI components. | `Social Proof` `Widgets` `SaaS UI` | [testimonial.to](https://testimonial.to/) |
