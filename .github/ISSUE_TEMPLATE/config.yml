@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/CyberParadox-33/UI-UX-RESOURCES/discussions
+    about: Ask questions, share design workflows, or connect with other developers and designers.
+  - name: 📖 Contribution Guidelines
+    url: https://github.com/CyberParadox-33/UI-UX-RESOURCES/blob/main/CONTRIBUTING.md
+    about: Read our 5-pillar inclusion criteria and review guidelines before opening an issue.

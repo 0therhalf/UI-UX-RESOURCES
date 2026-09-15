@@ -2,6 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Curated%20Collection-blueviolet?style=for-the-badge" alt="Status" />
+  <a href="https://github.com/CyberParadox-33/UI-UX-RESOURCES/actions/workflows/link-checker.yml"><img src="https://img.shields.io/github/actions/workflow/status/CyberParadox-33/UI-UX-RESOURCES/link-checker.yml?branch=main&label=Link%20Health&style=for-the-badge" alt="Link Health Status" /></a>
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
   <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge" alt="PRs Welcome" />
 </p>
@@ -124,14 +125,21 @@ This list is also mirrored from the curated Notion database:
 
 ## 🤝 Contributing
 
-Contributions, resource suggestions, and pull requests are welcome!
+Contributions, resource suggestions, and pull requests are welcome! Please ensure all submissions follow our **5-Pillar Inclusion Criteria** (100% free/permanent free tier, zero affiliate links, actively maintained, high pedagogical value, and appropriate `L1`/`L2`/`L3` skill level tags).
+
+- 📖 **Read the full guidelines:** [CONTRIBUTING.md](CONTRIBUTING.md)
+- 📜 **Code of Conduct:** [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- 🌟 **Suggest a new resource:** [Open Resource Issue](https://github.com/CyberParadox-33/UI-UX-RESOURCES/issues/new?template=suggest_resource.yml)
+- 🚨 **Report a broken link or paywall:** [Report Broken Link](https://github.com/CyberParadox-33/UI-UX-RESOURCES/issues/new?template=report_broken_link.yml)
+
+### Quick Pull Request Steps
 
 1. **Fork** the repository
 2. **Create** your feature branch: `git checkout -b add/new-resource`
-3. **Add** the resource in the appropriate section with a concise description and tags
-4. **Commit** your changes: `git commit -m 'feat: add <Resource Name> to <Section>'`
+3. **Add** the resource in alphabetical order in the target section
+4. **Commit** your changes: `git commit -m 'feat(resources): add <Resource Name> to <Section>'`
 5. **Push** to the branch: `git push origin add/new-resource`
-6. **Open** a Pull Request
+6. **Open** a Pull Request using our [PR Template](.github/pull_request_template.md)
 
 ---
 

@@ -1,0 +1,69 @@
+name: 🚨 Report Broken Link / Resource Issue
+description: Report a 404 dead link, expired domain, or newly added paywall.
+title: "[Broken Link]: "
+labels: ["broken-link", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thanks for helping keep this repository healthy!
+        Automated CI runs weekly, but human eyes catch what scripts miss (such as added paywalls, domain takeovers, or silent redirects).
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: The name of the resource that is broken.
+      placeholder: e.g., Coolors
+    validations:
+      required: true
+
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: The exact link as written in the README.
+      placeholder: https://example.com/broken-page
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What is happening with this link?
+      options:
+        - "404 Not Found (Dead link / Page removed)"
+        - "Domain Expired / Parked / Hijacked"
+        - "Paywall Added / Free Tier Removed / Trial-only"
+        - "Affiliate or Monetization Tracking Injected"
+        - "Broken Redirection Loop"
+        - "Other"
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Location in README
+      description: Which category or table does this resource appear in?
+      placeholder: e.g., 🛠️ Developer Assets & Production Utilities
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-replacement
+    attributes:
+      label: Suggested Fix or Alternative (Optional)
+      description: Do you know the updated URL or a superior free alternative?
+      placeholder: The URL moved to https://... OR A great replacement is...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: "I have confirmed this link fails on my browser/connection"
+          required: true

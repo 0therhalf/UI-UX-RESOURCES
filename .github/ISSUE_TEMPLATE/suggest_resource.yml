@@ -1,0 +1,82 @@
+name: 🌟 Suggest a Resource
+description: Propose a new UI/UX or frontend resource for inclusion.
+title: "[Resource]: "
+labels: ["resource-suggestion", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### Thank you for contributing to Awesome UI/UX & Frontend Resources!
+        Before submitting, please make sure the resource adheres to our [5-Pillar Inclusion Criteria](https://github.com/CyberParadox-33/UI-UX-RESOURCES/blob/main/CONTRIBUTING.md#the-5-pillar-inclusion-criteria).
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: The official name of the tool, library, or website.
+      placeholder: e.g., Lucide Icons
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: The canonical URL (strip all UTM parameters, referral tokens, or affiliate tags).
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target-category
+    attributes:
+      label: Target Category
+      description: Which section of the repository does this resource belong to?
+      options:
+        - "🌟 Design Galleries & Inspiration"
+        - "🧩 UI Component Libraries & Design Systems"
+        - "💫 Motion, Animation & Interaction Engines"
+        - "🧊 3D Design & Procedural Visuals"
+        - "📖 UI/UX Principles, Glossaries & Style Guides"
+        - "🛠️ Developer Assets & Production Utilities"
+        - "Other / New Category Proposal"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: skill-level
+    attributes:
+      label: Skill Level Tag
+      description: What is the target complexity or experience level for this resource?
+      options:
+        - "L1 - Beginner (Foundational, accessible to newcomers)"
+        - "L2 - Intermediate (Practical, requires standard dev/design knowledge)"
+        - "L3 - Advanced (Complex, specialized, shaders/math/deep architecture)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: resource-description
+    attributes:
+      label: Resource Description & Pedagogical Value
+      description: Provide a concise summary (1-2 sentences) of what it does and why it is valuable to the community.
+      placeholder: A lightweight, accessible icon library with over 1,000+ customizable vector glyphs.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria-verification
+    attributes:
+      label: 5-Pillar Quality Verification
+      description: You must verify each of the following criteria before submitting.
+      options:
+        - label: "100% Free or genuine permanent free tier (no credit card required, no expiring 7-day trials)"
+          required: true
+        - label: "Zero affiliate codes, tracking parameters, or monetization tokens"
+          required: true
+        - label: "Actively maintained (commits, releases, or content updates within the past 1–2 years)"
+          required: true
+        - label: "High pedagogical or practical utility for designers/developers"
+          required: true
+        - label: "I have checked that this resource is not already listed in the repository"
+          required: true
